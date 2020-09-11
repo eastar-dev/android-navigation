@@ -75,5 +75,10 @@
             android:defaultValue="Android!" />
         <deepLink app:uri="www.example.com/{myarg}" />
     </fragment>
+    <fragment
+        android:id="@+id/shopping_cart"
+        android:name="com.example.android.codelabs.navigation.BasketFragment"
+        android:label="basket_fragment"
+        tools:layout="@layout/basket_fragment" />
 
 </navigation>
